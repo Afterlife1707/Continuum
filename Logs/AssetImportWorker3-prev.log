@@ -1,0 +1,942 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.2f1 (d6360bedb9a0) revision 14038539'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 15629 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+D:/Unity Projects/TopDown
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+49879
+Successfully changed project path to: D:/Unity Projects/TopDown
+D:/Unity Projects/TopDown
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 148.84 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.2f1 (d6360bedb9a0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity Projects/TopDown/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6023 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56024
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004704 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 169.39 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.804 seconds
+Domain Reload Profiling:
+	ReloadAssembly (805ms)
+		BeginReloadAssembly (84ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (616ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (132ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (386ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (63ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (169ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (103ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005015 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\TopDown\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\TopDown\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 130.79 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.334 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1335ms)
+		BeginReloadAssembly (207ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (135ms)
+		EndReloadAssembly (1030ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (241ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (596ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (131ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (252ms)
+				ProcessInitializeOnLoadMethodAttributes (88ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 3.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5844 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (2.4 MB). Loaded Objects now: 6280.
+Memory consumption went from 240.6 MB to 238.2 MB.
+Total: 4.441600 ms (FindLiveObjects: 0.435100 ms CreateObjectMapping: 0.168500 ms MarkObjects: 3.188000 ms  DeleteObjects: 0.649100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 205459.489467 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth1/walk_5.png
+  artifactKey: Guid(1305963813b2e994e82c7d8d049e27fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth1/walk_5.png using Guid(1305963813b2e994e82c7d8d049e27fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b86b662fb6fea1dfdf2ebb0ce1ad47b2') in 0.316348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Left wings/wingL1/walk_5.png
+  artifactKey: Guid(d7b0d28436e6f48419e6d4015070f073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Left wings/wingL1/walk_5.png using Guid(d7b0d28436e6f48419e6d4015070f073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c112cfcf6332b3645194e3c563bc8a3') in 0.204314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Hairs/hair3/walk_2.png
+  artifactKey: Guid(5dcf2f6197d95b042b8e58065b80957a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Hairs/hair3/walk_2.png using Guid(5dcf2f6197d95b042b8e58065b80957a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae8cb37fa4387ab6e3b5af73d42a667') in 0.187634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Horns/horn2/death_4.png
+  artifactKey: Guid(2e91d47d04c02a24ab973ca741cf8018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Horns/horn2/death_4.png using Guid(2e91d47d04c02a24ab973ca741cf8018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c65b8fd97e80bac772ab9556109870') in 0.163799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Heads/head1/death_4.png
+  artifactKey: Guid(1e0b063f3a3b91e44be0e8289977c21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Heads/head1/death_4.png using Guid(1e0b063f3a3b91e44be0e8289977c21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bc62a2caa731392b98df2f3b38a2aba') in 0.164675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Horns/horn4/death_4.png
+  artifactKey: Guid(a9de3f4e0f12426498699b67fae998fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Horns/horn4/death_4.png using Guid(a9de3f4e0f12426498699b67fae998fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b175df4a6bd804834cda72ff5e302431') in 0.162203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Horns/horn5/walk_5.png
+  artifactKey: Guid(1d1fa58743e58f54899938a71e5b644f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Horns/horn5/walk_5.png using Guid(1d1fa58743e58f54899938a71e5b644f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e14f554a3b51fe5165193fe2a9148ea7') in 0.165276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth4/walk_2.png
+  artifactKey: Guid(b177cfd441de1ac43a8a003a7795f483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth4/walk_2.png using Guid(b177cfd441de1ac43a8a003a7795f483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a3a2ddd73c74b1e89cee68f5c09e77') in 0.167811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.015473 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Horns/horn3/walk_5.png
+  artifactKey: Guid(ef2e66cf1261dad4bb3b9da63954743b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Horns/horn3/walk_5.png using Guid(ef2e66cf1261dad4bb3b9da63954743b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '793cdd58cf823bed1e553dc9ec85f951') in 0.195769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Heads/head1/fall_3.png
+  artifactKey: Guid(44cdb42758e3aa94fb3a25916be7b83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Heads/head1/fall_3.png using Guid(44cdb42758e3aa94fb3a25916be7b83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09888446f52c3d7a518e6a7ac24573a4') in 0.211091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Horns/horn1/idle_4.png
+  artifactKey: Guid(dff8f755386a21b439605020293a8736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Horns/horn1/idle_4.png using Guid(dff8f755386a21b439605020293a8736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e9c3a9602c93404c1dbc320bbeacea') in 0.181760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth4/hit_0.png
+  artifactKey: Guid(ae61d1ecd4499634ea555af40dfe3b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth4/hit_0.png using Guid(ae61d1ecd4499634ea555af40dfe3b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903e7fe99acaec7d323df8a65f91ee03') in 0.179717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth3/fall_0.png
+  artifactKey: Guid(34ff95356889b784ea43cf80acb20000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth3/fall_0.png using Guid(34ff95356889b784ea43cf80acb20000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a57e8c6236d9c91cceec852db446946') in 0.214654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Eyes/eyes5/fall_2.png
+  artifactKey: Guid(5c5d0d53232494648acd25ba36691726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Eyes/eyes5/fall_2.png using Guid(5c5d0d53232494648acd25ba36691726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fdf4bb3847f29d07d29cfd3cdd8f5cf') in 0.193836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Full body animated characters/Enemies/Enemy 4/fall_1.png
+  artifactKey: Guid(c441567af1547344192570681cd05ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Full body animated characters/Enemies/Enemy 4/fall_1.png using Guid(c441567af1547344192570681cd05ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a9d695ec3d3e83940f01b4841ebae0c') in 0.177299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Horns/horn2/fall_2.png
+  artifactKey: Guid(1b2f2adf40dd37f4ebddb09fded679aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Horns/horn2/fall_2.png using Guid(1b2f2adf40dd37f4ebddb09fded679aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e189fe148d24122f7bf2e2561f7db0a0') in 0.185412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Eyes/eyes2/death_7.png
+  artifactKey: Guid(385870147bf0bfc488b1c3517643092c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Eyes/eyes2/death_7.png using Guid(385870147bf0bfc488b1c3517643092c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1490baaeb2f1742b577afc79f7abfed') in 0.168460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Heads/head1/jumpStart_0.png
+  artifactKey: Guid(768bebf208e1fbe40b7fdd457ad9cd10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Heads/head1/jumpStart_0.png using Guid(768bebf208e1fbe40b7fdd457ad9cd10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd2a34b5e4298fb4e20d55f600cf058') in 0.189220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Eyes/eyes5/walk_3.png
+  artifactKey: Guid(6a5d92e3a1696684982e9d78510f92d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Eyes/eyes5/walk_3.png using Guid(6a5d92e3a1696684982e9d78510f92d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ffa77ba4547d14ca4a3f4c6616de7ae') in 0.178538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Full body animated characters/Enemies/Enemy 1/fall_1.png
+  artifactKey: Guid(6d06fd50eb9dedf45864e19736de41d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Full body animated characters/Enemies/Enemy 1/fall_1.png using Guid(6d06fd50eb9dedf45864e19736de41d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a3f23613518edcfc2509d4fd79d2cc') in 0.159037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Right weapons/weaponR1/death_8.png
+  artifactKey: Guid(9bfc70b008ef9dc4785ff6daa9d73a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Right weapons/weaponR1/death_8.png using Guid(9bfc70b008ef9dc4785ff6daa9d73a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1efc06f9d3f10f36be1bcedefc5174cd') in 0.169561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Full body animated characters/Enemies/Enemy 2/roll_3.png
+  artifactKey: Guid(f3ff80ee1fcac42479f39b38c737406c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Full body animated characters/Enemies/Enemy 2/roll_3.png using Guid(f3ff80ee1fcac42479f39b38c737406c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b306cb99f1d2c9d8089fa3e09a4b00') in 0.171026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Right wings/wingR1/fall_2.png
+  artifactKey: Guid(2ef74c64066268a4eb09237d4b32b494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Right wings/wingR1/fall_2.png using Guid(2ef74c64066268a4eb09237d4b32b494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e8de77eed0b5e2e9caaac1ada270f0') in 0.166368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Hairs/hair1/death_6.png
+  artifactKey: Guid(0b66a8e08ad40814d90a1bee7aa32043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Hairs/hair1/death_6.png using Guid(0b66a8e08ad40814d90a1bee7aa32043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f29b7293eb9886eff4a67af3e52a37') in 0.171545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Hairs/hair3/idle_1.png
+  artifactKey: Guid(889ff2d3fbcc15d4ea5603b0f97ad9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Hairs/hair3/idle_1.png using Guid(889ff2d3fbcc15d4ea5603b0f97ad9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ba0855173cfbe629114d54d575d30b4') in 0.168462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth6/idle_1.png
+  artifactKey: Guid(6de5c152ba499fe45bd65e1aab9aedea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth6/idle_1.png using Guid(6de5c152ba499fe45bd65e1aab9aedea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '018622b19b2625070e7078c90f14f2d5') in 0.175355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth6/jumpStart_0.png
+  artifactKey: Guid(6e037a50a79ed8f4686ff57cae10f09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth6/jumpStart_0.png using Guid(6e037a50a79ed8f4686ff57cae10f09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c965610195b5cd12d696c47a9d2dc27e') in 0.176318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth3/idle_3.png
+  artifactKey: Guid(36edf9a4882ef124cbe5cdc582d55a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth3/idle_3.png using Guid(36edf9a4882ef124cbe5cdc582d55a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd31d4c17542df6639b944643170a17f7') in 0.167565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth5/fall_3.png
+  artifactKey: Guid(a75dd2f52e4d88448aca04d4a8067091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth5/fall_3.png using Guid(a75dd2f52e4d88448aca04d4a8067091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f182e260ab41f9eff6f4381c45d490') in 0.166022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Right weapons/weaponR3/roll_1.png
+  artifactKey: Guid(bcfc0e3c7544c8e4cb706438a5abff03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Right weapons/weaponR3/roll_1.png using Guid(bcfc0e3c7544c8e4cb706438a5abff03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a4a1042ccc360ecfb112bd368b92b4') in 0.160765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Right feet/footR1/death_6.png
+  artifactKey: Guid(ab303b11c88316943b6a69c608fd9be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Right feet/footR1/death_6.png using Guid(ab303b11c88316943b6a69c608fd9be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0613dff2eb5df2c6166c0768ced16911') in 0.181278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Right weapons/weaponR2/death_6.png
+  artifactKey: Guid(f1d989092d3040d47b23c4fc8c6591d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Right weapons/weaponR2/death_6.png using Guid(f1d989092d3040d47b23c4fc8c6591d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f47911b57f5e754256756fca589846c') in 0.161483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth3/death_8.png
+  artifactKey: Guid(aab5c4e0a30e6fb4890b73f3facc7767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth3/death_8.png using Guid(aab5c4e0a30e6fb4890b73f3facc7767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1110db4a6230528222a7a1af0970a04a') in 0.176937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Right hands/handR1/death_8.png
+  artifactKey: Guid(04530e0e90095d14c86d816bfd631040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Right hands/handR1/death_8.png using Guid(04530e0e90095d14c86d816bfd631040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de0115591507755de4c7c9d1d20e576') in 0.175407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Bodies/body1/idle_1.png
+  artifactKey: Guid(0033d8fb5361946498142d173a8b258c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Bodies/body1/idle_1.png using Guid(0033d8fb5361946498142d173a8b258c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc33b295878993413b39e351641d964') in 0.167836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Eyes/eyes2/idle_1.png
+  artifactKey: Guid(52100241e57d6ec4a8a7cdadd3a6adaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Eyes/eyes2/idle_1.png using Guid(52100241e57d6ec4a8a7cdadd3a6adaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff6bb62af254296190b030089aa08770') in 0.168585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth7/death_6.png
+  artifactKey: Guid(41bbca16faa238a4f99e85383af11f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth7/death_6.png using Guid(41bbca16faa238a4f99e85383af11f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3f7a02f13ea8b0cdb505c6fbe8c75a4') in 0.166047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Full body animated characters/Enemies/Enemy 1/roll_4.png
+  artifactKey: Guid(4cc39fee8640b2d4bac4dc56300af974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Full body animated characters/Enemies/Enemy 1/roll_4.png using Guid(4cc39fee8640b2d4bac4dc56300af974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b67c97c387050927e884614e682112') in 0.183629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Horns/horn4/death_8.png
+  artifactKey: Guid(eb916da9862cd524d9df75a1735c6917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Horns/horn4/death_8.png using Guid(eb916da9862cd524d9df75a1735c6917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2806c8f88bbec30fa2ebacdd4d0a49b6') in 0.172270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth4/death_6.png
+  artifactKey: Guid(dc0bdb7cd5a839240aca7396f2536fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth4/death_6.png using Guid(dc0bdb7cd5a839240aca7396f2536fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c446013db7f444a668656b02eb85ef8b') in 0.171287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Eyes/eyes6/roll_1.png
+  artifactKey: Guid(488c3ba881fc181409621cea04234efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Eyes/eyes6/roll_1.png using Guid(488c3ba881fc181409621cea04234efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6511b9be8a9293a8d361c9cb71576c83') in 0.166980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Right hands/handR1/walk_0.png
+  artifactKey: Guid(0e23aa228182ba24bb44f69e06a91981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Right hands/handR1/walk_0.png using Guid(0e23aa228182ba24bb44f69e06a91981) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de8726dc66868c82a9412c8f72963902') in 0.166069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Full body animated characters/Enemies/Enemy 4/jumpStart_0.png
+  artifactKey: Guid(171a9651e3d304a439a8a415885f29e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Full body animated characters/Enemies/Enemy 4/jumpStart_0.png using Guid(171a9651e3d304a439a8a415885f29e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa2c403deeab4a52cbacf1454b61189') in 0.167503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth2/idle_4.png
+  artifactKey: Guid(1125b5751384b7b429a31b143a404501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth2/idle_4.png using Guid(1125b5751384b7b429a31b143a404501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '508d75a72461b00567a22632a9f5f8a1') in 0.173922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth4/jumpStart_0.png
+  artifactKey: Guid(1c4015c4fd167164a94ad2ba6b6f5b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth4/jumpStart_0.png using Guid(1c4015c4fd167164a94ad2ba6b6f5b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa94f82daa150097342978a0e99d426') in 0.164908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Left feet/footL1/idle_4.png
+  artifactKey: Guid(1278c407ea6a2a541a1d51a27c4b02fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Left feet/footL1/idle_4.png using Guid(1278c407ea6a2a541a1d51a27c4b02fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78687ef97507b7d9a9a48bc3adfdce11') in 0.172279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth1/walk_4.png
+  artifactKey: Guid(40b126cc6989fae4990797de5edb3e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth1/walk_4.png using Guid(40b126cc6989fae4990797de5edb3e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df3a37f01dbb7f54b9455d9daa3a6e94') in 0.165968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Right wings/wingR1/fall_0.png
+  artifactKey: Guid(6b47f034fe40ed443bb00b8753eec2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Right wings/wingR1/fall_0.png using Guid(6b47f034fe40ed443bb00b8753eec2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b1071ff7db6a19da8f77aa664c8f79') in 0.167189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Horns/horn1/walk_4.png
+  artifactKey: Guid(a71dd0aa6688be0439732e1c1cc49fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Horns/horn1/walk_4.png using Guid(a71dd0aa6688be0439732e1c1cc49fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c715d0d00e78037d4d97041fc81af861') in 0.178426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Hairs/hair2/death_5.png
+  artifactKey: Guid(403f433a509b9f746b5756e7364116c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Hairs/hair2/death_5.png using Guid(403f433a509b9f746b5756e7364116c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ea3a5303f227c32bbe15e4b04a6f6b') in 0.189267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Left feet/footL1/walk_3.png
+  artifactKey: Guid(4676426373f23ff46b0df0ab5c98a792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Left feet/footL1/walk_3.png using Guid(4676426373f23ff46b0df0ab5c98a792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a357dbb6d70c51757981af8bbeb178') in 0.176569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Hairs/hair3/death_6.png
+  artifactKey: Guid(7a59f44f44a41fd4a841c74d272b4785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Hairs/hair3/death_6.png using Guid(7a59f44f44a41fd4a841c74d272b4785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59293a3266321b4c2efc6f7cb15c33b8') in 0.189443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Hairs/hair2/idle_2.png
+  artifactKey: Guid(d25c7a3088793e84691cce56dab3ad52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Hairs/hair2/idle_2.png using Guid(d25c7a3088793e84691cce56dab3ad52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3da449b83ab7d5c8757359e2120635c3') in 0.169506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Full body animated characters/Enemies/Enemy 1/roll_1.png
+  artifactKey: Guid(432533bef57e3b3469d9470791835333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Full body animated characters/Enemies/Enemy 1/roll_1.png using Guid(432533bef57e3b3469d9470791835333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75221e90537d2197b8f93229fd52fede') in 0.170022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Left feet/footL1/idle_0.png
+  artifactKey: Guid(cbe52aad85aa3af4f92eef3c4fe14bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Left feet/footL1/idle_0.png using Guid(cbe52aad85aa3af4f92eef3c4fe14bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ebb992f74f5fc063f8a07fc2d05005c') in 0.174113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Full body animated characters/Enemies/Enemy 4/idle_4.png
+  artifactKey: Guid(b1d8fe9b86ce4784ea725b658700ca74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Full body animated characters/Enemies/Enemy 4/idle_4.png using Guid(b1d8fe9b86ce4784ea725b658700ca74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ee1ad59211e989131ed0b1cdab571f') in 0.173770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth8/fall_1.png
+  artifactKey: Guid(61b98414e2a7ebf428e7314272fa404f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth8/fall_1.png using Guid(61b98414e2a7ebf428e7314272fa404f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f0cfff0b39d63759e3e4440c22a897') in 0.166114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Horns/horn3/death_6.png
+  artifactKey: Guid(e7477f04fcf5dc34fb42a9f9291dd594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Horns/horn3/death_6.png using Guid(e7477f04fcf5dc34fb42a9f9291dd594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c025f1d30c915f5b9ce5d82cbaf4fe4b') in 0.171417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Hairs/hair1/hit_0.png
+  artifactKey: Guid(73ee0b69ad88d524696f20226bf95bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Hairs/hair1/hit_0.png using Guid(73ee0b69ad88d524696f20226bf95bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc30237ea2d3dfc176d07a8be0a65deb') in 0.166559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth2/fall_1.png
+  artifactKey: Guid(0172f972ac77ae542bf36a9ea25c826e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth2/fall_1.png using Guid(0172f972ac77ae542bf36a9ea25c826e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e260bdb8dccf6564cea979f00de7d7de') in 0.173161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth3/idle_4.png
+  artifactKey: Guid(4e35cdca06de725429e1cf0c8a45a4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth3/idle_4.png using Guid(4e35cdca06de725429e1cf0c8a45a4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c63bc22747f1bad7570da4556dee5a4') in 0.174144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth2/fall_2.png
+  artifactKey: Guid(6e308c853129d25469a6795833021255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth2/fall_2.png using Guid(6e308c853129d25469a6795833021255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9518f277b45d5d6112ec58a0e86ba77') in 0.170119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Heads/head3/roll_1.png
+  artifactKey: Guid(fffa287996e596a4aadf8a43d03066a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Heads/head3/roll_1.png using Guid(fffa287996e596a4aadf8a43d03066a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79f6b07bc83afa0835070df60672ac94') in 0.169911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Eyes/eyes5/death_6.png
+  artifactKey: Guid(05fcd97afb84c5e4aaa18437dc87b4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Eyes/eyes5/death_6.png using Guid(05fcd97afb84c5e4aaa18437dc87b4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '300324349488b97836004301472aadb7') in 0.170128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Horns/horn4/idle_1.png
+  artifactKey: Guid(0850f51ccdd20cc4ab300bdde2c0f843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Horns/horn4/idle_1.png using Guid(0850f51ccdd20cc4ab300bdde2c0f843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657a1c71f19bd41d4fc898a89c730503') in 0.181187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Eyes/eyes6/hit_0.png
+  artifactKey: Guid(0eb139c24450e5f46b905c9d81fd8f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Eyes/eyes6/hit_0.png using Guid(0eb139c24450e5f46b905c9d81fd8f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b04a8b3689a10c585be370887d413d1') in 0.175864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth8/idle_5.png
+  artifactKey: Guid(cc55c7e3cfae6d947b351c86a3739b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth8/idle_5.png using Guid(cc55c7e3cfae6d947b351c86a3739b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c10e1af67132b45e5dd2acceb8c89f') in 0.169410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Hairs/hair2/idle_4.png
+  artifactKey: Guid(7090519a9f4adfe468b2865f69906cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Hairs/hair2/idle_4.png using Guid(7090519a9f4adfe468b2865f69906cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dfc98696c9bfe2337e4c23c1c1c89ca') in 0.165178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Eyes/eyes5/roll_3.png
+  artifactKey: Guid(6b5ec1f8fff11fe4ba8baaa841bd3181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Eyes/eyes5/roll_3.png using Guid(6b5ec1f8fff11fe4ba8baaa841bd3181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9957733eece2bf6b5520018df5312d52') in 0.165696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Eyes/eyes2/fall_1.png
+  artifactKey: Guid(225162c911f3d6e40a8bcfe63099fbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Eyes/eyes2/fall_1.png using Guid(225162c911f3d6e40a8bcfe63099fbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca156daf696d31e98e305b46ae703fef') in 0.171980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Right weapons/weaponR1/fall_2.png
+  artifactKey: Guid(4eca4ad7d64d66e4ba8452041935fef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Right weapons/weaponR1/fall_2.png using Guid(4eca4ad7d64d66e4ba8452041935fef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eefdbfc73cfd7ff77f2185c299dda702') in 0.177869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Horns/horn4/fall_1.png
+  artifactKey: Guid(29f0177636a58134b9c94836ee4e7c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Horns/horn4/fall_1.png using Guid(29f0177636a58134b9c94836ee4e7c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af08a774027aa840ed26f83b9886c48') in 0.187484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Horns/horn3/idle_4.png
+  artifactKey: Guid(2311502041ee8dd42b07b2f957326b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Horns/horn3/idle_4.png using Guid(2311502041ee8dd42b07b2f957326b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632ad81f95e91dcaa9bb727277384e22') in 0.165392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Eyes/eyes1/death_4.png
+  artifactKey: Guid(7f5fe887eb66a954391b3e9242efdd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Eyes/eyes1/death_4.png using Guid(7f5fe887eb66a954391b3e9242efdd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faebd6ece7ebac5cd0bf2eda845ca63c') in 0.171679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Eyes/eyes4/jumpStart_0.png
+  artifactKey: Guid(21842abb37ad01d4e8c96fedc45a2435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Eyes/eyes4/jumpStart_0.png using Guid(21842abb37ad01d4e8c96fedc45a2435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '600fa13ee9b71e6881c2302a409dec97') in 0.187508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Eyes/eyes5/death_8.png
+  artifactKey: Guid(273d761c1b74f1c4eb1084ced560ecfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Eyes/eyes5/death_8.png using Guid(273d761c1b74f1c4eb1084ced560ecfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ed3adb710a3d1f46e882f2b34ccb0e3') in 0.169372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Right weapons/weaponR3/roll_3.png
+  artifactKey: Guid(ce419c508241f03408192a74eaff18f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Right weapons/weaponR3/roll_3.png using Guid(ce419c508241f03408192a74eaff18f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c295804a863020d96a30ad9ef0f63000') in 0.172661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth5/walk_4.png
+  artifactKey: Guid(3b726b86ed2fb9c4c985fe57015668b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth5/walk_4.png using Guid(3b726b86ed2fb9c4c985fe57015668b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '611d928860049d81aa28c54e515d9ba9') in 0.174970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Full body animated characters/Enemies/Enemy 4/death_9.png
+  artifactKey: Guid(fe64ca98cfabb4544873eb6c8118af14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Full body animated characters/Enemies/Enemy 4/death_9.png using Guid(fe64ca98cfabb4544873eb6c8118af14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b0b98bbfffdf5673319fd3911794a7') in 0.174854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth3/death_9.png
+  artifactKey: Guid(a4edb8e0b580fef42ba2009b39b7908d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth3/death_9.png using Guid(a4edb8e0b580fef42ba2009b39b7908d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '984356932fea3c68684bd007313bfd1d') in 0.175359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth6/roll_4.png
+  artifactKey: Guid(d039a1b2b2d8c5943abdf8d04b9868c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth6/roll_4.png using Guid(d039a1b2b2d8c5943abdf8d04b9868c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3566e065e5f2eddbb8b4d1e7b380834') in 0.185659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Eyes/eyes2/roll_2.png
+  artifactKey: Guid(11c9140843addd745b9360aad921dfda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Eyes/eyes2/roll_2.png using Guid(11c9140843addd745b9360aad921dfda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559dd0b5c02b025f1b5135c698a7cfa5') in 0.177955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth1/roll_4.png
+  artifactKey: Guid(67a34e9267bf6734c800f3d136f0c3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth1/roll_4.png using Guid(67a34e9267bf6734c800f3d136f0c3a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '113b3cafd8d813c9d3fb67e7c2e0081b') in 0.209243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Eyes/eyes1/walk_1.png
+  artifactKey: Guid(d8ab1a44efe05d547b0c8bac5e157cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Eyes/eyes1/walk_1.png using Guid(d8ab1a44efe05d547b0c8bac5e157cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d2a6ae319d2aacaef36bd9511dd9bf') in 0.186916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Right hands/handR1/roll_2.png
+  artifactKey: Guid(704c4d9baf5a5ff4eb35e5f1d44e1b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Right hands/handR1/roll_2.png using Guid(704c4d9baf5a5ff4eb35e5f1d44e1b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b278871946c983817c666594e440234') in 0.190458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth1/roll_2.png
+  artifactKey: Guid(8762458ebd3f91f498084827d58f927e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth1/roll_2.png using Guid(8762458ebd3f91f498084827d58f927e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1ef21275ef3bb4a0c5986ec50d7040c') in 0.184627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Eyes/eyes4/death_6.png
+  artifactKey: Guid(1a7d354f931386f48a0649d5ff9096b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Eyes/eyes4/death_6.png using Guid(1a7d354f931386f48a0649d5ff9096b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34ee15155e166f2d495d72543429e0c') in 0.186420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth3/death_6.png
+  artifactKey: Guid(19a4115dc784e1942b319c0599db214b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth3/death_6.png using Guid(19a4115dc784e1942b319c0599db214b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eb3587152c50d750b1edd915ef0439e') in 0.184724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Eyes/eyes1/death_5.png
+  artifactKey: Guid(06ec554f99dc8df47b337c0010ff0e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Eyes/eyes1/death_5.png using Guid(06ec554f99dc8df47b337c0010ff0e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6797247e5eb22c7653051fde42d799ab') in 0.180384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Horns/horn5/roll_3.png
+  artifactKey: Guid(681ab765a2fdb4041bf3265920e50c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Horns/horn5/roll_3.png using Guid(681ab765a2fdb4041bf3265920e50c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f5f7971ba05b5d88cbef5a09ec36e7') in 0.189922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Hairs/hair2/death_7.png
+  artifactKey: Guid(7a3c18f56cba7c5419b39f04afca0cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Hairs/hair2/death_7.png using Guid(7a3c18f56cba7c5419b39f04afca0cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766c22bad72071ec38fa3242240a3235') in 0.196645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth1/walk_3.png
+  artifactKey: Guid(03a133080b0ebfb469b56c68a0799e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth1/walk_3.png using Guid(03a133080b0ebfb469b56c68a0799e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd896dbf97b8a45d2a21dda3f22a45184') in 0.171116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Heads/head1/death_5.png
+  artifactKey: Guid(c4f8f7c106f5eac46a4c7b11cc4b1769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Heads/head1/death_5.png using Guid(c4f8f7c106f5eac46a4c7b11cc4b1769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '181017ea3d8f9a3152290a3597faded5') in 0.196489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Heads/head2/idle_3.png
+  artifactKey: Guid(6e9b62416304e344fba8ab6012ef996a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Heads/head2/idle_3.png using Guid(6e9b62416304e344fba8ab6012ef996a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfcb26c493d7524b65c75600e33aa2c5') in 0.168820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Eyes/eyes7/roll_3.png
+  artifactKey: Guid(0c7c1b99fdc92f6478c766031e7e78b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Eyes/eyes7/roll_3.png using Guid(0c7c1b99fdc92f6478c766031e7e78b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e7d89eec2457746776d84643dbfeef8') in 0.165244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Left wings/wingL1/walk_3.png
+  artifactKey: Guid(96d764915949b1c4a9f3d1ef24a04115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Left wings/wingL1/walk_3.png using Guid(96d764915949b1c4a9f3d1ef24a04115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c587f82c8998d2e7690ec2f89acc89c7') in 0.171129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Left hands/handL1/idle_0.png
+  artifactKey: Guid(8a5c45a95b4e1134a8ccd7fd0993fd57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Left hands/handL1/idle_0.png using Guid(8a5c45a95b4e1134a8ccd7fd0993fd57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5efcb9d934a5b64444dd15bb8f6d3aa6') in 0.172397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Right weapons/weaponR1/idle_1.png
+  artifactKey: Guid(cb413e04ad4b0b941b5b2bea16571a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Right weapons/weaponR1/idle_1.png using Guid(cb413e04ad4b0b941b5b2bea16571a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07f3dd4142a842ab892b0999bf0dcc80') in 0.170722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Eyes/eyes6/idle_2.png
+  artifactKey: Guid(9fcedffc1714a144d81f61a726c1666e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Eyes/eyes6/idle_2.png using Guid(9fcedffc1714a144d81f61a726c1666e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16456b25cfc3ad3a75d605fd3d5abc5') in 0.177127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Hairs/hair2/jumpStart_0.png
+  artifactKey: Guid(b9b51694beb39a049a336590aaa7ed1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Hairs/hair2/jumpStart_0.png using Guid(b9b51694beb39a049a336590aaa7ed1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4287ade6694e03e18cb9c2b7172dde4d') in 0.174708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Horns/horn5/roll_2.png
+  artifactKey: Guid(7cd0533cf2fe7c54ead901bdd03a110d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Horns/horn5/roll_2.png using Guid(7cd0533cf2fe7c54ead901bdd03a110d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647920091fc7129fee4990702baf486f') in 0.166963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Eyes/eyes1/roll_3.png
+  artifactKey: Guid(8226277f26b9cae4b9a79a2a1faa58f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Eyes/eyes1/roll_3.png using Guid(8226277f26b9cae4b9a79a2a1faa58f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef4154ce19d3d9eb1fc178b97a71fa2a') in 0.170526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Eyes/eyes2/hit_1.png
+  artifactKey: Guid(a8fc7eedbe5ad64489d7ebe4d8896413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Eyes/eyes2/hit_1.png using Guid(a8fc7eedbe5ad64489d7ebe4d8896413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a9275506e130205fc68d32f2a5a84ab') in 0.169744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Right hands/handR1/fall_0.png
+  artifactKey: Guid(8a75173f39710474c8cf22350259e4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Right hands/handR1/fall_0.png using Guid(8a75173f39710474c8cf22350259e4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49a3d7f7e5a65852a711accac7bcfe98') in 0.180191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth7/walk_1.png
+  artifactKey: Guid(56b6091b5593be147baa2e59b73377b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Mouths/mouth7/walk_1.png using Guid(56b6091b5593be147baa2e59b73377b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec80b8f8f70555cc5240943d287a8f14') in 0.193663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Right weapons/weaponR1/fall_1.png
+  artifactKey: Guid(13efd3f50a808e84f973cfaa98d462b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Right weapons/weaponR1/fall_1.png using Guid(13efd3f50a808e84f973cfaa98d462b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a0761a8c02da2017145932aa9868e20') in 0.171700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Eyes/eyes1/idle_4.png
+  artifactKey: Guid(35033fbc830ba6b4bbe04d30f336980f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Eyes/eyes1/idle_4.png using Guid(35033fbc830ba6b4bbe04d30f336980f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2838b83a10005b06aadd88dc638d54d5') in 0.174230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Right weapons/weaponR1/walk_4.png
+  artifactKey: Guid(2cde174a517d4734681a36cb86407442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Right weapons/weaponR1/walk_4.png using Guid(2cde174a517d4734681a36cb86407442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aedd30c2f9cf0e2d42a15ab2d4f2691') in 0.171249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Right hands/handR1/fall_1.png
+  artifactKey: Guid(6c2d1cb391f0a5c4092952386c4d4352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Animated Vector Game Character Sprites/Animated body parts/Right hands/handR1/fall_1.png using Guid(6c2d1cb391f0a5c4092952386c4d4352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ba50ff93629a373979f5f818405b75') in 0.173087 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003734 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\TopDown\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\TopDown\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.50 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.046 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1046ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (841ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (215ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (432ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (239ms)
+				ProcessInitializeOnLoadMethodAttributes (83ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.21 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5680 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (2.4 MB). Loaded Objects now: 6289.
+Memory consumption went from 235.6 MB to 233.2 MB.
+Total: 5.346600 ms (FindLiveObjects: 0.654700 ms CreateObjectMapping: 0.377300 ms MarkObjects: 3.472500 ms  DeleteObjects: 0.840300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003482 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\TopDown\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\TopDown\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.978 seconds
+Domain Reload Profiling:
+	ReloadAssembly (979ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (791ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (219ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (403ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (220ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.16 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5680 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (2.4 MB). Loaded Objects now: 6292.
+Memory consumption went from 235.6 MB to 233.2 MB.
+Total: 6.356300 ms (FindLiveObjects: 0.544000 ms CreateObjectMapping: 0.645300 ms MarkObjects: 4.160200 ms  DeleteObjects: 1.005500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
